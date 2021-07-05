@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61bd96a4-4050-431b-b3af-bc895d75cceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/room/SideBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <workItem from="1625429346973" duration="1460000" />
       <workItem from="1625478904789" duration="6454000" />
       <workItem from="1625492345900" duration="7400000" />
-      <workItem from="1625509594930" duration="866000" />
+      <workItem from="1625509594930" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar added">
       <created>1625509792110</created>
