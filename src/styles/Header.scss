@@ -1,0 +1,17 @@
+.header{
+  width: 25rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background: #1976D2;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+
+  & div{
+    cursor: pointer;
+    padding: 0.9rem 4.75rem ;
+  }
+}
