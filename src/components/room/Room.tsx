@@ -1,16 +1,23 @@
 import React from "react";
-import { useFirebase } from "react-redux-firebase";
+import "../../styles/Room.scss";
+
+//components
+import SideBar from "./SideBar";
+import Chat from "./Chat";
+import Navbar from "./Navbar";
 
 const Room: React.FC = () => {
-  const firebase = useFirebase();
-
-  console.log(firebase);
-  const logout = () => {
-    firebase.logout().then((res) => console.log("çıkış yapıldı"));
-  };
   return (
-    <div>
-      <button onClick={logout}>Logout</button>
+    <div className="room">
+      <Navbar />
+      <div className="room__container">
+        <div className="room__container__sidebar">
+          <SideBar />
+        </div>
+        <div className="room__container__chat">
+          <Chat />
+        </div>
+      </div>
     </div>
   );
 };

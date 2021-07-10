@@ -1,0 +1,32 @@
+.navbar{
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__title{
+    font-size: 2rem;
+  }
+
+  &__profile{
+    display: flex;
+    align-items: center;
+
+    &__name{
+      font-size: 1.25rem;
+    }
+
+    &__avatar{
+      width: 2.25rem;
+      border-radius: 100%;
+      margin: 0 1rem;
+    }
+
+    &__button{
+      background-color: transparent;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
