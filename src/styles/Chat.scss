@@ -1,0 +1,14 @@
+.chat{
+  height: calc(100vh - 8rem);
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+
+  &__detail{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #053c72;
+    border-radius: 0.5rem;
+    color: white;
+  }
+}

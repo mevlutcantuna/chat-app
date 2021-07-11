@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
   // @ts-ignore I could not find redux-firebase types so,I ignored that
   const profile = useSelector((state) => state.firebase.profile);
-  console.log(profile.avatar);
+  //console.log(profile.avatar);
   const logout = () => {
     firebase.logout().then((res) => console.log("çıkış yapıldı"));
   };
@@ -24,12 +24,12 @@ const Navbar: React.FC = () => {
     <div className="navbar">
       <div className="navbar__title">Chat Room</div>
       <div className="navbar__profile">
-        <span className="navbar__profile__name">{profile.name}</span>
+        <span className="navbar__profile__name">{profile?.name}</span>
         <span>
           <img
             className="navbar__profile__avatar"
             alt={"avatar"}
-            src={profile.avatar}
+            src={profile?.avatar}
           />
         </span>
         <span>

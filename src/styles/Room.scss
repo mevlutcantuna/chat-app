@@ -1,16 +1,13 @@
 .room{
-  height: 100vh;
+
   &__container{
     display: flex;
-    height: calc(100vh - 3rem);
+    height: calc(100vh - 6rem);
     &__sidebar{
-      flex: 0.20;
-      height: 100%;
-      background-color: #1976D2;
+      flex: 0.2;
     }
     &__chat{
       flex: 0.8;
-      background-color: salmon;
     }
   }
 }

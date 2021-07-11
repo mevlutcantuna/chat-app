@@ -1,8 +1,13 @@
 .navbar{
-  height: 3rem;
+  height: 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #053c72;
+  margin: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+
 
   &__title{
     font-size: 2rem;

@@ -1,0 +1,24 @@
+.sidebar{
+  padding-top: 2rem;
+  color: white;
+  background-color: #1976D2;
+  height: calc(100vh - 8rem);
+  margin: 1rem;
+  border-radius: 0.5rem;
+
+  &__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      &:active{
+        background-color: #053c72;
+      }
+    }
+  }
+}

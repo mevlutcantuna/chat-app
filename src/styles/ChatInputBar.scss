@@ -1,0 +1,17 @@
+.chatInputBar{
+  color: white;
+  border-radius: 0.5rem;
+  &__input{
+    padding-left: 0.5rem;
+    width: 100%;
+    color: white;
+    height: 2.8rem;
+    background-color: #053c72;
+    border-radius: 0.5rem;
+    border: none;
+
+    &::placeholder{
+      color: white;
+    }
+    }
+}

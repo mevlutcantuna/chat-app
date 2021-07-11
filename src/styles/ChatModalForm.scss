@@ -1,0 +1,28 @@
+.chatModalForm{
+
+  &__form{
+    display: flex;
+    flex-direction: column;
+
+    & input{
+      height: 2.25rem;
+      padding-left: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    & button{
+      width: 6rem;
+      height: 2rem;
+      margin: 0 auto;
+      border-radius: 0.5rem;
+      border: none;
+      background-color: #1976D2;
+      color: white;
+      cursor: pointer;
+
+      &:active{
+        background-color: #053c72;
+      }
+    }
+  }
+}
