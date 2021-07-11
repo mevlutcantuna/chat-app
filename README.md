@@ -30,7 +30,7 @@ You should take a look. I could not find firebase types ,therefore I ignored thi
 To setup the project, run the following on your terminal in the order:
 
 ```
-    git clone https://github.com/mevlutcantuna/slack-clone
+    git clone https://github.com/mevlutcantuna/chat-app
 ```
 
 ```
