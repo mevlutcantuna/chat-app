@@ -24,3 +24,23 @@ You should take a look. I could not find firebase types ,therefore I ignored thi
 - SCSS
 - React-Modal
 - React-Router-Dom
+
+### Setup
+
+To setup the project, run the following on your terminal in the order:
+
+```
+    git clone https://github.com/mevlutcantuna/chat-app
+```
+
+```
+    npm install
+```
+
+```
+    yarn start
+```
+
+Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
