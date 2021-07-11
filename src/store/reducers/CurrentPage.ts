@@ -13,10 +13,10 @@ interface IState {
 
 const initialState: IState = {
   currentPage: {
-    key: "-MeKAM-18njtfCRMnuna",
+    key: "-MeM7xV0cX4rD40_NgSS",
     value: {
-      desc: "Sohbet",
-      roomName: "Kanal 1",
+      desc: "Everything For Games",
+      roomName: "Game",
     },
   },
 };
