@@ -4,12 +4,13 @@ import "firebase/auth";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA-j3lUuJT3zpPeeVZjWrne-L0K267ZgsA",
-  authDomain: "chat-app-mct.firebaseapp.com",
-  projectId: "chat-app-mct",
-  storageBucket: "chat-app-mct.appspot.com",
-  messagingSenderId: "450861688719",
-  appId: "1:450861688719:web:fe6e7e5013cd125ec18dfa",
+  apiKey: "AIzaSyDLGzrknG5s4zGuoXftDWDL8ay6vujdz-Q",
+  authDomain: "mct-chat-app-9ecf3.firebaseapp.com",
+  databaseURL: "https://mct-chat-app-9ecf3-default-rtdb.firebaseio.com",
+  projectId: "mct-chat-app-9ecf3",
+  storageBucket: "mct-chat-app-9ecf3.appspot.com",
+  messagingSenderId: "344384415734",
+  appId: "1:344384415734:web:2c499cd711c7fe543409d7",
 };
 
 firebase.initializeApp(firebaseConfig);
