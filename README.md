@@ -2,7 +2,7 @@
 
 ### Demo
 ```
-    https://mct-chat-app-9ecf3.firebaseapp.com/
+https://mct-chat-app-9ecf3.firebaseapp.com/
 ```
 
 In this project I tried to make a like slack-clone project. I want to mention some detail in this project. When we add a new message and there are a lot of messages, scrool is downing automatically. I did it with refs and I benifit this website 
